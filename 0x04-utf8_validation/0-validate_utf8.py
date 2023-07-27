@@ -21,6 +21,8 @@
     Returns:
     bool: True if the data is a valid UTF-8 encoding, otherwise False.
 """
+
+
 def validUTF8(data):
     """
     Function to check if the input data is valid UTF-8.
