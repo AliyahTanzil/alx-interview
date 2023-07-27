@@ -1,5 +1,5 @@
-def validUTF8(data):
-    """
+#!/usr/bin/python3
+"""
     Determines if a given data set represents a valid UTF-8 encoding.
 
     Prototype: def validUTF8(data)
@@ -20,7 +20,16 @@ def validUTF8(data):
 
     Returns:
     bool: True if the data is a valid UTF-8 encoding, otherwise False.
+"""
+def validUTF8(data):
+    """
+    Function to check if the input data is valid UTF-8.
 
+    Parameters:
+    data (list): The input data as a list of integers.
+
+    Returns:
+    bool: True if the input data is valid UTF-8, False otherwise.
     Example:
     data = [235, 140, 4],
     which represented the octet sequence: 11101011 10001100 00000100.
