@@ -18,7 +18,7 @@ def reverse_matrix(matrix):
     """_summary_
 
     Args:
-                    matrix (_type_): _description_
+    matrix (_type_): _description_
     """
     for row in matrix:
         row.reverse()
